@@ -63,12 +63,16 @@ nav a {
   height: auto;
 }
 
-.hero {
-  display: flex;
-  height: auto;
+section {
+  height: 100vh;
 }
 
-.hero-img {
+.hero {
+  display: flex;
+}
+
+.hero-img,
+.om-meg-img {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -76,6 +80,29 @@ nav a {
 
 .hero-text,
 .hero-img {
+  width: 50%;
+}
+
+.hero-text,
+.om-meg-text {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-lorem {
+  display: flex;
+  justify-content: center;
+}
+
+.om-meg {
+  display: flex;
+}
+
+.om-meg-img,
+.om-meg-text {
   width: 50%;
 }
 
