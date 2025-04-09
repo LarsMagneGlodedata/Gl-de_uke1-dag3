@@ -1,0 +1,123 @@
+* {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+}
+
+body {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.932);
+  min-height: 100vh;
+}
+
+main {
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: auto;
+  position: sticky;
+  top: 0;
+  background-color: rgba(14, 14, 14, 0.555);
+  box-shadow: 0 0 50px 1px;
+  border-radius: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  min-width: 50vw;
+}
+
+.nav1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-width: 90vw;
+}
+
+nav a:hover {
+  filter: brightness(120%);
+  box-shadow: 0 0 100px 1px #bebebe;
+}
+
+nav a {
+  border: 1px solid #eee;
+  background-color: #eee;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 1vh 1vw;
+  padding: 1%;
+  height: auto;
+}
+
+.logo {
+  padding: 14px 5px;
+  max-width: 40px;
+  border-radius: 50%;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  height: auto;
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.hero-text,
+.hero-img {
+  width: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: rgb(0, 0, 0);
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 0 50px 1px black;
+}
+
+ul li {
+  font-size: 15px;
+  width: 30vw;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  width: 10vw;
+  justify-content: center;
+}
+
+.ig-logo {
+  max-width: 60px;
+}
+
+.fb-logo {
+  padding-left: 12px;
+  padding-top: 8px;
+  max-width: 29px;
+}
+
+.git-logo {
+  max-width: 43px;
+}
